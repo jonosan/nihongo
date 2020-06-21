@@ -1,0 +1,5 @@
+---
+title: Verbs
+permalink: /verbs/
+---
+

@@ -1,1 +1,9 @@
-theme: jekyll-theme-leap-day
+theme: minima
+baseurl: "/nihongo"
+
+include:
+  - _pages
+
+header_pages:
+  - _pages/verbs.md
+  - _pages/adverbs.md
