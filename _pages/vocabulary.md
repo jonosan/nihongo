@@ -1,10 +1,5 @@
 ---
 title: Vocabulary
 permalink: /vocabulary/
+layout: vocabulary
 ---
-
-# Lesson 25
-
-| -- | -- | -- |
-かんがえます | 考えます | think, consider
-つきます | 着きます | arrive

@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+{% assign groups = site.data.verbs | group_by: 'group' %}
+{% for group in groups %}
+<h1>{{group.name}} &ndash; group</h1>
+<table>
+    <thead>
+        <tr>
+            <th></th>
+            <th style="text-align: middle">ます-form</th>
+            <th></th>
+            <th style="text-align: middle">て-form</th>
+            <th style="text-align: middle">dictionary form</th>
+            <th style="text-align: middle">ない-form</th>
+            <th></th>
+            <th style="text-align: middle">た-form</th>
+            <th style="text-align: middle">meaning</th>
+            <th style="text-align: middle">lesson</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for verb in group.items %}
+        <tr id="{{verb.id}}">
+            <td>{{verb.id}}</td>
+            <td style="text-align: right">{{verb.masu}}</td>
+            <td>ます</td>
+            <td style="text-align: right">{{verb.te}}</td>
+            <td style="text-align: right">{{verb.dict}}</td>
+            <td style="text-align: right">{{verb.nai}}</td>
+            <td>ない</td>
+            <td style="text-align: right">{{verb.ta}}</td>
+            <td>{{verb.meaning}}</td>
+            <td style="text-align: right">{{verb.lesson}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endfor %}

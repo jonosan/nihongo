@@ -1,0 +1,19 @@
+- id: 着きます
+  group: I
+  masu: つき
+  te: ついて
+  dict: つく
+  nai: つか
+  ta: ついた
+  meaning: arrive
+  lesson: 25
+
+- id: 考えます
+  group: II
+  masu: かんがえ
+  te: かんがえて
+  dict: かんがえる
+  nai: かんがえ
+  ta: かんがえた
+  meaning: think, consider
+  lesson: 25

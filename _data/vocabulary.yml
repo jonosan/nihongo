@@ -1,0 +1,27 @@
+- kana: よく
+  type: A
+  meaning: often, well
+  lesson: 22
+
+- kana: べんとう
+  kanji: 弁当
+  prefix: "［お］"
+  meaning: box lunch
+  lesson: 22
+
+- kana: かんがえます
+  kanji: 考えます
+  type: II
+  meaning: think, consider
+  lesson: 25
+
+- kana: つきます
+  kanji: 着きます
+  type: I
+  meaning: arrive
+  lesson: 25
+
+- kana: もし
+  suffix: "［～たら］"
+  meaning: if
+  lesson: 25

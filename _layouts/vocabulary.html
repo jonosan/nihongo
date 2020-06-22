@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% assign lessons = site.data.vocabulary | group_by: 'lesson' %}
+{% for lesson in lessons %}
+<h1>Lesson {{lesson.name}}</h1>
+<table>
+    <tbody>
+        {% for word in lesson.items %}
+        <tr>
+            <td>{{word.prefix}}{{word.kana}}{{word.suffix}} <a href="{{site.baseurl}}/verbs#{{word.kanji}}"><sub>{{word.type}}</sub></a></td>
+            <td>{% if word.kanji != nil %}{{word.prefix}}{{word.kanji}}{{word.suffix}}{% endif %}</td>
+            <td>{{word.meaning}}</td>
+            <td><a href="https://jisho.org/search/{{word.kanji | default: word.kana}}%23sentences">sentences</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endfor %}
