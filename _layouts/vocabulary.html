@@ -8,6 +8,7 @@ layout: default
 <table>
     <tbody>
         {% for word in lesson[1] %}
+        {% if word.type != 'C' and word.type != 'K' and word.type != 'M' %}
         <tr>
             {% if word.type == "V" %}
             {% assign verb = site.data.verbs | where: "id", word.kanji | first %}
@@ -21,7 +22,58 @@ layout: default
             <td>{{word.meaning}}</td>
             <td><a href="https://jisho.org/search/{{word.kanji | default: word.kana}}%23sentences">sentences</a></td>
         </tr>
+        {% endif %}
         {% endfor %}
     </tbody>
 </table>
+
+{% assign renshuu = lesson[1] | where: 'type', 'C' %}
+{% if renshuu.size > 0 %}
+<h3><b>〈<ruby>練<rt>れん</rt></ruby><ruby>習<rt>しゅう</rt></ruby>C〉</b></h3>
+<table>
+    <tbody>
+        {% for word in renshuu %}
+        <tr>
+            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}}</td>
+            <td>{{word.meaning}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% assign kaiwa = lesson[1] | where: 'type', 'K' %}
+{% if kaiwa.size > 0 %}
+<h3><b>〈<ruby>会<rt>かい</rt></ruby><ruby>話<rt>わ</rt></ruby>〉</b></h3>
+<table>
+    <tbody>
+        {% for word in kaiwa %}
+        <tr>
+            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}}</td>
+            <td>{{word.meaning}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% assign misc = lesson[1] | where: 'type', 'M' %}
+{% if misc.size > 0 %}
+<hr style="
+  border-top: 3px dotted;
+  border-left: none;
+  border-bottom: none;
+  border-right: none;
+  margin-bottom: 30px;">
+<table>
+    <tbody>
+        {% for word in misc %}
+        <tr>
+            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}}</td>
+            <td>{{word.meaning}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
 {% endfor %}
