@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<h1>Adverbs</h1>
+<table>
+    <tbody>
+{% assign adverbs = site.data.vocabulary | where: 'type', 'A' %}
+{% for word in adverbs %}
+        <tr id="{{word.kana}}">
+            <td>{{word.prefix}}{{word.kana}}{{word.suffix}}</td>
+            <td>{{word.meaning}}</td>
+            <td><a href="https://jisho.org/search/{{word.kanji | default: word.kana}}%23sentences">sentences</a></td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>
