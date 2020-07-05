@@ -20,7 +20,7 @@ layout: default
             {% endif %}
             <td>{% if word.kanji != nil %}{{word.prefix}}{{word.prefix_kanji}}{{word.kanji}}{{word.suffix}}{{word.suffix_kanji}}{% endif %}</td>
             <td>{{word.meaning}}</td>
-            <td><a href="https://jisho.org/search/{{word.kanji | default: word.kana}}%23sentences">sentences</a></td>
+            <td>{% if word.kana != nil %}<a href="https://jisho.org/search/{{word.kanji | default: word.kana}}%23sentences">sentences</a>{% endif %}</td>
         </tr>
         {% endif %}
         {% endfor %}
