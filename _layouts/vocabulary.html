@@ -9,7 +9,12 @@ layout: default
     <tbody>
         {% for word in lesson.items %}
         <tr>
-            <td>{{word.prefix}}{{word.kana}}{{word.suffix}} <a href="{{site.baseurl}}/verbs#{{word.kanji}}"><sub>{{word.type}}</sub></a></td>
+            {% if word.type == "V" %}
+            {% assign verb = site.data.verbs | where: "id", word.kanji | first %}
+            <td>{{word.prefix}}{{word.kana}}{{word.suffix}} <a href="{{site.baseurl}}/verbs#{{word.kanji}}"><sub>{{verb.group}}</sub></a></td>
+            {% else %}
+            <td>{{word.prefix}}{{word.kana}}{{word.suffix}}</td>
+            {% endif %}
             <td>{% if word.kanji != nil %}{{word.prefix}}{{word.kanji}}{{word.suffix}}{% endif %}</td>
             <td>{{word.meaning}}</td>
             <td><a href="https://jisho.org/search/{{word.kanji | default: word.kana}}%23sentences">sentences</a></td>

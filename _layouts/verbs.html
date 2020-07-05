@@ -22,6 +22,7 @@ layout: default
     </thead>
     <tbody>
         {% for verb in group.items %}
+        {% assign word = site.data.vocabulary | where: "kanji", verb.id | first %}
         <tr id="{{verb.id}}">
             <td>{{verb.id}}</td>
             <td style="text-align: right">{{verb.masu}}</td>
@@ -31,8 +32,8 @@ layout: default
             <td style="text-align: right">{{verb.nai}}</td>
             <td>ない</td>
             <td style="text-align: right">{{verb.ta}}</td>
-            <td>{{verb.meaning}}</td>
-            <td style="text-align: right">{{verb.lesson}}</td>
+            <td>{{word.meaning}}</td>
+            <td style="text-align: right">{{word.lesson}}</td>
         </tr>
         {% endfor %}
     </tbody>
