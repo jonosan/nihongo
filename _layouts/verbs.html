@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign lessons = site.data.vocabulary %}
 {% assign groups = site.data.verbs | group_by: 'group' %}
 {% for group in groups %}
 <h1>{{group.name}} &ndash; group</h1>
@@ -22,7 +23,14 @@ layout: default
     </thead>
     <tbody>
         {% for verb in group.items %}
-        {% assign word = site.data.vocabulary | where: "kanji", verb.id | first %}
+        {% for doc in lessons %}
+          {% assign word = doc[1] | where: "kanji", verb.id | first %}
+          {% if word != nil %}
+            {% assign meaning = word.meaning %}
+            {% assign lesson = doc[0] %}
+          {% endif %}
+        {% endfor %}
+
         <tr id="{{verb.id}}">
             <td>{{verb.id}}</td>
             <td style="text-align: right">{{verb.masu}}</td>
@@ -32,8 +40,8 @@ layout: default
             <td style="text-align: right">{{verb.nai}}</td>
             <td>ない</td>
             <td style="text-align: right">{{verb.ta}}</td>
-            <td>{{word.meaning}}</td>
-            <td style="text-align: right">{{word.lesson}}</td>
+            <td>{{meaning}}</td>
+            <td style="text-align: right">{{lesson}}</td>
         </tr>
         {% endfor %}
     </tbody>

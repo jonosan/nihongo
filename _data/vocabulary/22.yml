@@ -1,0 +1,20 @@
+- kana: べんとう
+  kanji: 弁当
+  prefix: "［お］"
+  meaning: box lunch
+
+- kana: よく
+  type: A
+  meaning: often, well
+
+- kana: えーと
+  meaning: well, let me see
+  type: C
+
+- kana: お<ruby>探<rt>さが</rt></ruby>しですか。
+  meaning: Are you looking for ～?
+  type: K
+
+- kana: パリ
+  meaning: Paris
+  type: M
