@@ -1,0 +1,117 @@
+- kana: わたし
+  kanji: 私
+  meaning: I
+
+- kana: あなた
+  meaning: you
+
+- kana: あの　ひと
+  suffix_kana: （あの　かた）
+  kanji: あの　人
+  suffix_kanji: （あの　方）
+  meaning: that person, he, she（あの　かた is the polite equivalent of あの　ひと）
+
+- kana:
+
+- kana: ～さん
+  meaning: Mr., Ms. (suffix added to a name for expressing politeness)
+
+- kana: ～ちゃん
+  meaning: (suffix added to a child's name instead of ～さん)
+
+- kana: ～じん
+  kanji: ～人
+  meaning: (suffix meaning 'a national of'; e.g. アメリカじん, an American)
+
+- kana:
+
+- kana: せんせい
+  kanji: 先生
+  meaning: teacher, instructor (not used when referring to one's own job)
+
+- kana: きょうし
+  kanji: 教師
+  meaning: teacher, instructor
+
+- kana: がくせい
+  kanji: 学生
+  meaning: student
+
+- kana: かいしゃいん
+  kanji: 会社員
+  meaning: company employee  
+
+- kana: しゃいん
+  kanji: 社員
+  meaning: employee of ～ company (used with a company's name, e.g. IMC の　しゃいん)
+  
+- kana: ぎんこういん
+  kanji: 銀行員
+  meaning: bank employee
+
+- kana: いしゃ
+  kanji: 医者
+  meaning: "[medical] doctor"
+
+- kana: けんきゅうしゃ
+  kanji: 研究者
+  meaning: researcher, scholar
+
+- kana:
+
+- kana: だいがく
+  kanji: 大学
+  meaning: university
+
+- kana: びょういん
+  kanji: 病院
+  meaning: hospital
+
+- kana:
+
+- kana: だれ
+  suffix_kana: （どなた）
+  meaning: who (どなた is the polite equivalent of だれ)
+
+- kana:
+
+- kana: ーさい
+  kanji: ー歳
+  meaning: ー years old
+
+- kana: なんさい
+  suffix_kana: （おいくつ）
+  kanji: 何歳
+  meaning: how old (おいくつ is the polite equivalent of なんさい)
+
+- kana:
+
+- kana: はい
+  meaning: "yes"
+
+- kana: いいえ
+  meaning: "no"
+
+- kana: <ruby>初<rt>はじ</rt></ruby>めまして。
+  meaning: How do you do? (Usually used as the first phrase when introducing oneself.)
+  type: C
+
+- kana: ～から <ruby>来<rt>き</rt></ruby>ました。
+  meaning: I'm from (～ country)
+  type: C
+
+- kana: ［どうぞ］よろしく［お<ruby>願<rt>ねが</rt></ruby>いします］。
+  meaning: Pleased to meet you. Usually used at the end of a self-introduction.
+  type: C  
+
+- kana: <ruby>失礼<rt>しつれい</rt></ruby>ですが
+  meaning: Excuse me, but...
+  type: C
+
+- kana: お<ruby>名前<rt>なまえ</rt></ruby>は？
+  meaning: May I have your name?
+  type: C  
+
+- kana: こちらは　～さんです。
+  meaning: This is Mr./Ms. ～. 
+  type: C  
