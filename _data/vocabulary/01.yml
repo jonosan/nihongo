@@ -13,14 +13,17 @@
 
 - kana:
 
-- kana: ～さん
+- kana: さん
+  prefix: ～
   meaning: Mr., Ms. (suffix added to a name for expressing politeness)
 
-- kana: ～ちゃん
+- kana: ちゃん
+  prefix: ～
   meaning: (suffix added to a child's name instead of ～さん)
 
-- kana: ～じん
-  kanji: ～人
+- kana: じん
+  kanji: 人
+  prefix: ～
   meaning: (suffix meaning 'a national of'; e.g. アメリカじん, an American)
 
 - kana:
@@ -75,8 +78,9 @@
 
 - kana:
 
-- kana: ーさい
-  kanji: ー歳
+- kana: さい
+  kanji: 歳
+  prefix: ー
   meaning: ー years old
 
 - kana: なんさい
