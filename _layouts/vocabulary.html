@@ -2,12 +2,18 @@
 layout: default
 ---
 
-{% assign lessons = site.data.vocabulary | sort_by:0 %}
+{% assign lessons = "" | split: ',' %}
+{% for lesson in site.data.vocabulary %}
+  {% assign lessons = lessons | push: lesson[0] %}
+{% endfor %}
+
+{% assign lessons = lessons | sort %}
 {% for lesson in lessons %}
-<h1>Lesson {{lesson[0]}}</h1>
+{% assign words = site.data.vocabulary[lesson] %}
+<h1>Lesson {{lesson}}</h1>
 <table>
     <tbody>
-        {% for word in lesson[1] %}
+        {% for word in words %}
         {% if word.type != 'C' and word.type != 'K' and word.type != 'M' %}
         <tr>
             {% if word.type == "V" %}
@@ -27,7 +33,7 @@ layout: default
     </tbody>
 </table>
 
-{% assign renshuu = lesson[1] | where: 'type', 'C' %}
+{% assign renshuu = words | where: 'type', 'C' %}
 {% if renshuu.size > 0 %}
 <h3><b>〈<ruby>練<rt>れん</rt></ruby><ruby>習<rt>しゅう</rt></ruby>C〉</b></h3>
 <table>
@@ -42,7 +48,7 @@ layout: default
 </table>
 {% endif %}
 
-{% assign kaiwa = lesson[1] | where: 'type', 'K' %}
+{% assign kaiwa = words | where: 'type', 'K' %}
 {% if kaiwa.size > 0 %}
 <h3><b>〈<ruby>会<rt>かい</rt></ruby><ruby>話<rt>わ</rt></ruby>〉</b></h3>
 <table>
@@ -57,7 +63,7 @@ layout: default
 </table>
 {% endif %}
 
-{% assign misc = lesson[1] | where: 'type', 'M' %}
+{% assign misc = words | where: 'type', 'M' %}
 {% if misc.size > 0 %}
 <hr style="
   border-top: 3px dotted;
