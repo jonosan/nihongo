@@ -1,0 +1,187 @@
+- kana: これ
+  meaning: this (thing here)
+
+- kana: それ
+  meaning: that (thing near the listener)
+
+- kana: あれ
+  meaning: that (thing over there)  
+
+- kana:
+
+- kana: この
+  suffix: 　～
+  meaning: this ～, this ～ here
+
+- kana: その
+  suffix: 　～
+  meaning: that ～, that ～ near the listener
+
+- kana: あの
+  suffix: 　～
+  meaning: that ～, that ～ over there
+
+- kana:
+
+- kana: ほん
+  kanji: 本
+  meaning: book
+
+- kana: じしょ
+  kanji: 辞書
+  meaning: dictionary
+
+- kana: ざっし
+  kanji: 雑誌
+  meaning: magazine
+
+- kana: しんぶん
+  kanji: 新聞
+  meaning: newspaper
+
+- kana: ノート
+  meaning: notebook
+
+- kana: てちょう
+  kanji: 手帳
+  meaning: personal organizer
+
+- kana: めいし
+  kanji: 名刺
+  meaning: business card
+
+- kana: カード
+  meaning: (credit) card
+
+- kana:
+
+- kana: えんぴつ
+  kanji: 鉛筆
+  meaning: pencil
+
+- kana: ボールペン
+  meaning: ballpoint pen
+
+- kana: シャープペンシル
+  meaning: mechanical pencil, propelling pencil
+
+- kana:
+
+- kana: かぎ
+  meaning: key
+
+- kana: とけい
+  kanji: 時計
+  meaning: watch, clock
+
+- kana: かさ
+  kanji: 傘
+  meaning: umbrella
+
+- kana: かばん
+  meaning: bag, briefcase
+
+- kana: CD
+  meaning: CD, compact disk
+
+- kana:
+
+- kana: テレビ
+  meaning: television
+
+- kana: ラジオ
+  meaning: radio
+
+- kana: カメラ
+  meaning: camera
+
+- kana: コンピューター
+  meaning: computer
+
+- kana: くるま
+  kanji: 車
+  meaning: car, vehicle  
+
+- kana:
+
+- kana: つくえ
+  kanji: 机
+  meaning: desk
+
+- kana: いす
+  meaning: chair
+
+- kana:
+
+- kana: チョコレート
+  meaning: chocolate
+
+- kana: コーヒー
+  meaning: coffee
+
+- kana: みやげ
+  kanji: 土産
+  prefix: "［お］"
+  meaning: souvenir, present
+
+- kana:
+
+- kana: えいご
+  kanji: 英語
+  meaning: the English language
+
+- kana: にほんご
+  kanji: 日本語
+  meaning: the Japanese language
+
+- kana: ご
+  kanji: 語
+  prefix: ～
+  meaning: ～language
+
+- kana:
+
+- kana: なん
+  kanji: 何
+  meaning: what
+
+- kana:
+
+- kana: そう
+  meaning: so
+
+- kana: あのう
+  meaning: Er... (used to show hesitation)
+  type: C
+
+- kana: えっ
+  meaning: Oh? What! (used when hearing something unexpected)
+  type: C  
+
+- kana: どうぞ。
+  meaning: Here you are. (used when offering someone something)
+  type: C
+
+- kana: ［どうも］ありがとう［ございます］。
+  meaning: Thank you [very much].
+  type: C
+
+- kana: そうですか。
+  meaning: I see.
+  type: C
+
+- kana: <ruby>違<rt>ちが</rt></ruby>います。
+  meaning: No, it isn't./ You are wrong.
+  type: C
+
+- kana: あ
+  meaning: Oh! (used when becoming aware of something)
+  type: C
+
+- kana: これから　お<ruby>世話<rt>せわ</rt></ruby>に　なります。
+  meaning: Thank you in advance for your kindness.
+  type: K
+
+- kana: こちらこそ［どうぞ］よろしく［お<ruby>願<rt>ねが</rt></ruby>いします］。
+  meaning: Pleased to meet you, too. (response to ［どうそ］よろしく［おねがいします］。)
+  type: K  
