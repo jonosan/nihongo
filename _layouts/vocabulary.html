@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign lessons = site.data.vocabulary %}
+{% assign lessons = site.data.vocabulary | sort_by:0 %}
 {% for lesson in lessons %}
 <h1>Lesson {{lesson[0]}}</h1>
 <table>
