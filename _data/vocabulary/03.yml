@@ -1,0 +1,166 @@
+- kana: ここ
+  meaning: here, this place
+
+- kana: そこ
+  meaning: there, that place near the listener
+
+- kana: あそこ
+  meaning: that place over there
+
+- kana: どこ
+  meaning: where, what place
+
+- kana:  
+
+- kana: こちら
+  meaning: this way, this place (polite equivalent of ここ)
+
+- kana: そちら
+  meaning: that way, that place near the listener (polite equivalent of そこ)
+
+- kana: あちら
+  meaning: that way, that place over there (polite equivalent of あそこ)
+
+- kana: どちら
+  meaning: which way, where (polite equivalent of どこ)
+
+- kana:
+
+- kana: きょうしつ
+  kanji: 教室
+  meaning: classroom
+
+- kana: しょくどう
+  kanji: 食堂
+  meaning: dinning hall, canteen
+
+- kana: じむしょ
+  kanji: 事務所
+  meaning: office
+
+- kana: かいぎしつ
+  kanji: 会議室
+  meaning: conference room, meeting room
+
+- kana: うけつけ
+  kanji: 受付
+  meaning: reception desk
+
+- kana: ロビー
+  meaning: lobby
+
+- kana: へや
+  kanji: 部屋
+  meaning: room
+
+- kana: トイレ（おてあらい）
+  kanji: お手洗い
+  meaning: toilet, rest room
+
+- kana:  
+
+- kana: かいだん
+  kanji: 階段
+  meaning: staircase
+
+- kana: エレベーター
+  meaning: lift, elevator
+
+- kana: エスカレーター
+  meaning: escalator
+  
+- kana: じどうはんばいき
+  kanji: 自動販売機
+  meaning: vending machine
+
+- kana:
+
+- kana: でんわ
+  kanji: 電話
+  meaning: telephone handset, telephone call
+
+- kana: くに
+  kanji: 国
+  prefix_kana: "［お］"
+  prefix_kanji: "［お］"
+  meaning: country
+
+- kana: かいしゃ
+  kanji: 会社
+  meaning: company
+
+- kana: うち
+  meaning: house, home
+
+- kana:
+
+- kana: くつ
+  kanji: 靴
+  meaning: shoes
+
+- kana: ネクタイ
+  meaning: tie, necktie
+
+- kana: ワイン
+  meaning: wine
+
+- kana:
+
+- kana: うりば
+  kanji: 売り場
+  meaning: department, counter (in a department store, etc.)
+
+- kana: ちか
+  kanji: 地下
+  meaning: basement
+
+- kana: かい（がい）
+  kanji: 階
+  prefix_kana: "［ー］"
+  prefix_kanji: "［ー］"
+  meaning: ーth floor
+
+- kana: なんがい
+  kanji: 何階
+  meaning: what floor
+
+- kana:  
+
+- kana: えん
+  kanji: 円
+  prefix_kana: "［ー］"
+  prefix_kanji: "［ー］"
+  meaning: ー yen
+
+- kana: いくら
+  meaning: how much
+
+- kana:
+
+- kana: ひゃく
+  kanji: 百
+  meaning: hundred
+
+- kana: せん
+  kanji: 千
+  meaning: thousand
+
+- kana: まん
+  kanji: 万
+  meaning: ten thousand
+
+- kana:
+
+- kana: すみません。
+  meaning: Excuse me.
+  type: C
+
+- kana: どうも。
+  meaning: Thanks. 
+  type: C
+
+- kana:
+
+- kana: お<ruby>探<rt>さが</rt></ruby>しですか。
+  meaning: Are 
+  type: K
