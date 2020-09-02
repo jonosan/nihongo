@@ -1,0 +1,3 @@
+{% assign kana = word.text | default: word.id | replace: "/", "<ruby>" | replace: "\", "</rt></ruby>" | replace: "=", "<rt>" %}
+{% assign prefix = word.prefix | replace: "/", "<ruby>" | replace: "\", "</ruby>" | replace: "=", "<rt>" %}
+{% assign suffix = word.suffix | replace: "/", "<ruby>" | replace: "\", "</ruby>" | replace: "=", "<rt>" %}

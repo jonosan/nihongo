@@ -16,17 +16,17 @@ layout: default
         {% for word in words %}
         {% if word.type != 'C' and word.type != 'K' and word.type != 'M' %}
         <tr>
+            {% include furigana.html %}
             {% if word.type == "V" %}
             {% assign verb = site.data.verbs | where: "id", word.kanji | first %}
-            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}} <a href="{{site.baseurl}}/verbs#{{word.kanji}}"><sub>{{verb.group}}</sub></a></td>
+            <td>{{prefix}}{{kana}}{{suffix}} <a href="{{site.baseurl}}/verbs#{{word.id}}"><sub>{{verb.group}}</sub></a></td>
             {% elsif word.type == "A" %}
-            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}} <a href="{{site.baseurl}}/adverbs#{{word.kana}}"><sub>{{word.type}}</sub></a></td>
+            <td>{{prefix}}{{kana}}{{suffix}} <a href="{{site.baseurl}}/adverbs#{{word.id}}"><sub>{{word.type}}</sub></a></td>
             {% else %}
-            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}}</td>
+            <td>{{prefix}}{{kana}}{{suffix}}</td>
             {% endif %}
-            <td>{% if word.kanji != nil %}{{word.prefix}}{{word.prefix_kanji}}{{word.kanji}}{{word.suffix}}{{word.suffix_kanji}}{% endif %}</td>
             <td>{{word.meaning}}</td>
-            <td>{% if word.kana != nil %}<a href="https://jisho.org/search/{{word.kanji | default: word.kana}}%23sentences">文</a>{% endif %}</td>
+            <td>{% if word.id != nil %}<a href="https://jisho.org/search/{{word.id}}%23sentences">文</a>{% endif %}</td>
         </tr>
         {% endif %}
         {% endfor %}
@@ -39,8 +39,9 @@ layout: default
 <table>
     <tbody>
         {% for word in renshuu %}
+        {% include furigana.html %}
         <tr>
-            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}}</td>
+            <td>{{prefix}}{{kana}}{{suffix}}</td>
             <td>{{word.meaning}}</td>
         </tr>
         {% endfor %}
@@ -54,8 +55,9 @@ layout: default
 <table>
     <tbody>
         {% for word in kaiwa %}
+        {% include furigana.html %}
         <tr>
-            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}}</td>
+            <td>{{prefix}}{{kana}}{{suffix}}</td>
             <td>{{word.meaning}}</td>
         </tr>
         {% endfor %}
@@ -74,8 +76,9 @@ layout: default
 <table>
     <tbody>
         {% for word in misc %}
+        {% include furigana.html %}
         <tr>
-            <td>{{word.prefix}}{{word.prefix_kana}}{{word.kana}}{{word.suffix}}{{word.suffix_kana}}</td>
+            <td>{{prefix}}{{kana}}{{suffix}}</td>
             <td>{{word.meaning}}</td>
         </tr>
         {% endfor %}
