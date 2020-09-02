@@ -1,121 +1,120 @@
-- kana: わたし
-  kanji: 私
+- id: 私
+  text: /私=わたし\
   meaning: I
 
-- kana: あなた
+- id: あなた
   meaning: you
 
-- kana: あの　ひと
-  suffix_kana: （あの　かた）
-  kanji: あの　人
-  suffix_kanji: （あの　方）
+- id: あの　人
+  text: あの　/人=ひと\
+  suffix: （あの　/方=かた\）
   meaning: that person, he, she（あの　かた is the polite equivalent of あの　ひと）
 
-- kana:
+- id:
 
-- kana: さん
+- id: さん
   prefix: ～
   meaning: Mr., Ms. (suffix added to a name for expressing politeness)
 
-- kana: ちゃん
+- id: ちゃん
   prefix: ～
   meaning: (suffix added to a child's name instead of ～さん)
 
-- kana: じん
-  kanji: 人
+- id: 人
+  text: /人=じん\
   prefix: ～
   meaning: (suffix meaning 'a national of'; e.g. アメリカじん, an American)
 
-- kana:
+- id:
 
-- kana: せんせい
-  kanji: 先生
+- id: 先生
+  text: /先=せん\/生=せい\
   meaning: teacher, instructor (not used when referring to one's own job)
 
-- kana: きょうし
-  kanji: 教師
+- id: 教師
+  text: /教=きょう\/師=し\
   meaning: teacher, instructor
 
-- kana: がくせい
-  kanji: 学生
+- id: 学生
+  text: /学=がく\/生=せい\
   meaning: student
 
-- kana: かいしゃいん
-  kanji: 会社員
+- id: 会社員
+  text: /会=かい\/社=しゃ\/員=いん\
   meaning: company employee  
 
-- kana: しゃいん
-  kanji: 社員
+- id: 社員
+  text: /社=しゃ\/員=いん\
   meaning: employee of ～ company (used with a company's name, e.g. IMC の　しゃいん)
   
-- kana: ぎんこういん
-  kanji: 銀行員
+- id: 銀行員
+  text: /銀=ぎん\/行=こう\/員=いん\
   meaning: bank employee
 
-- kana: いしゃ
-  kanji: 医者
+- id: 医者
+  text: /医=い\/者=しゃ\
   meaning: "[medical] doctor"
 
-- kana: けんきゅうしゃ
-  kanji: 研究者
+- id: 研究者
+  text: /研=けん\/究=きゅう\/者=しゃ\
   meaning: researcher, scholar
 
-- kana:
+- id:
 
-- kana: だいがく
-  kanji: 大学
+- id: 大学
+  text: /大=だい\/学=がく\
   meaning: university
 
-- kana: びょういん
-  kanji: 病院
+- id: 病院
+  text: /病=びょう\/院=いん\
   meaning: hospital
 
-- kana:
+- id:
 
-- kana: だれ
-  suffix_kana: （どなた）
+- id: だれ
+  suffix: （どなた）
   meaning: who (どなた is the polite equivalent of だれ)
 
-- kana:
+- id:
 
-- kana: さい
-  kanji: 歳
+- id: 歳
+  text: /歳=さい\
   prefix: ー
   meaning: ー years old
 
-- kana: なんさい
-  suffix_kana: （おいくつ）
-  kanji: 何歳
+- id: 何歳
+  text: /何=なん\/歳=さい\
+  suffix: （おいくつ）
   meaning: how old (おいくつ is the polite equivalent of なんさい)
 
-- kana:
+- id:
 
-- kana: はい
+- id: はい
   meaning: "yes"
 
-- kana: いいえ
+- id: いいえ
   meaning: "no"
 
-- kana: <ruby>初<rt>はじ</rt></ruby>めまして。
+- text: /初=はじ\めまして。
   meaning: How do you do? (Usually used as the first phrase when introducing oneself.)
   type: C
 
-- kana: ～から <ruby>来<rt>き</rt></ruby>ました。
+- text: ～から /来=き\ました。
   meaning: I'm from (～ country)
   type: C
 
-- kana: ［どうぞ］よろしく［お<ruby>願<rt>ねが</rt></ruby>いします］。
+- text: ［どうぞ］よろしく［お/願=ねが\いします］。
   meaning: Pleased to meet you. Usually used at the end of a self-introduction.
-  type: C  
+  type: C
 
-- kana: <ruby>失礼<rt>しつれい</rt></ruby>ですが
+- text: /失=しつ\/礼=れい\ですが
   meaning: Excuse me, but...
   type: C
 
-- kana: お<ruby>名前<rt>なまえ</rt></ruby>は？
+- text: お/名=な\/前=まえ\は？
   meaning: May I have your name?
-  type: C  
+  type: C
 
-- kana: こちらは　～さんです。
+- text: こちらは　～さんです。
   meaning: This is Mr./Ms. ～. 
-  type: C  
+  type: C
