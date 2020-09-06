@@ -18,7 +18,7 @@ layout: default
         <tr>
             {% include furigana.html %}
             {% if word.type == "V" %}
-            {% assign verb = site.data.verbs | where: "id", word.kanji | first %}
+            {% assign verb = site.data.verbs | where: "id", word.id | first %}
             <td>{{prefix}}{{kana}}{{suffix}} <a href="{{site.baseurl}}/verbs#{{word.id}}"><sub>{{verb.group}}</sub></a></td>
             {% elsif word.type == "A" %}
             <td>{{prefix}}{{kana}}{{suffix}} <a href="{{site.baseurl}}/adverbs#{{word.id}}"><sub>{{word.type}}</sub></a></td>
