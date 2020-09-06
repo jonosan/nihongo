@@ -1,166 +1,176 @@
-- kana: ここ
+- id: ここ
   meaning: here, this place
 
-- kana: そこ
+- id: そこ
   meaning: there, that place near the listener
 
-- kana: あそこ
+- id: あそこ
   meaning: that place over there
 
-- kana: どこ
+- id: どこ
   meaning: where, what place
 
-- kana:  
+- id:  
 
-- kana: こちら
+- id: こちら
   meaning: this way, this place (polite equivalent of ここ)
 
-- kana: そちら
+- id: そちら
   meaning: that way, that place near the listener (polite equivalent of そこ)
 
-- kana: あちら
+- id: あちら
   meaning: that way, that place over there (polite equivalent of あそこ)
 
-- kana: どちら
+- id: どちら
   meaning: which way, where (polite equivalent of どこ)
 
-- kana:
+- id:
 
-- kana: きょうしつ
-  kanji: 教室
+- id: 教室
+  text: /教=きょう\/室=しつ\
   meaning: classroom
 
-- kana: しょくどう
-  kanji: 食堂
+- id: 食堂
+  text: /食=しょく\/堂=どう\
   meaning: dinning hall, canteen
 
-- kana: じむしょ
-  kanji: 事務所
+- id: 事務所
+  text: /事=じ\/務=む\/所=しょ\
   meaning: office
 
-- kana: かいぎしつ
-  kanji: 会議室
+- id: 会議室
+  text: /会=かい\/議=ぎ\/室=しつ\
   meaning: conference room, meeting room
 
-- kana: うけつけ
-  kanji: 受付
+- id: 受付
+  text: /受=うけ\/付=つけ\
   meaning: reception desk
 
-- kana: ロビー
+- id: ロビー
   meaning: lobby
 
-- kana: へや
-  kanji: 部屋
+- id: 部屋
+  text: /部=へ\/屋=や\
   meaning: room
 
-- kana: トイレ（おてあらい）
-  kanji: お手洗い
+- id: トイレ
+  suffix: （お/手=て\/洗=あら\い）
   meaning: toilet, rest room
 
-- kana:  
+- id:  
 
-- kana: かいだん
-  kanji: 階段
+- id: 階段
+  text: /階=かい\/段=だん\
   meaning: staircase
 
-- kana: エレベーター
+- id: エレベーター
   meaning: lift, elevator
 
-- kana: エスカレーター
+- id: エスカレーター
   meaning: escalator
   
-- kana: じどうはんばいき
-  kanji: 自動販売機
+- id: 自動販売機
+  text: /自=じ\/動=どう\/販=はん\/売=ばい\/機=き\
   meaning: vending machine
 
-- kana:
+- id:
 
-- kana: でんわ
-  kanji: 電話
+- id: 電話
+  text: /電=でん\/話=わ\
   meaning: telephone handset, telephone call
 
-- kana: くに
-  kanji: 国
-  prefix_kana: "［お］"
-  prefix_kanji: "［お］"
+- id: 国
+  text: /国=くに\
+  prefix: ［お］
   meaning: country
 
-- kana: かいしゃ
-  kanji: 会社
+- id: 会社
+  text: /会=かい\/社=しゃ\
   meaning: company
 
-- kana: うち
+- id: うち
   meaning: house, home
 
-- kana:
+- id:
 
-- kana: くつ
-  kanji: 靴
+- id: 靴
+  text: /靴=くつ\
   meaning: shoes
 
-- kana: ネクタイ
+- id: ネクタイ
   meaning: tie, necktie
 
-- kana: ワイン
+- id: ワイン
   meaning: wine
 
-- kana:
+- id:
 
-- kana: うりば
-  kanji: 売り場
+- id: 売り場
+  text: /売=う\り/場=ば\
   meaning: department, counter (in a department store, etc.)
 
-- kana: ちか
-  kanji: 地下
+- id: 地下
+  text: /地=ち\/下=か\
   meaning: basement
 
-- kana: かい（がい）
-  kanji: 階
-  prefix_kana: "［ー］"
-  prefix_kanji: "［ー］"
+- id: 階
+  text: /階=かい\
+  prefix: ［ー］
+  suffix: （がい）
   meaning: ーth floor
 
-- kana: なんがい
-  kanji: 何階
+- id: 何階
+  text: /何=なん\/階=がい\
   meaning: what floor
 
-- kana:  
+- id:  
 
-- kana: えん
-  kanji: 円
-  prefix_kana: "［ー］"
-  prefix_kanji: "［ー］"
+- id: 円
+  text: /円=えん\
+  prefix: ［ー］
   meaning: ー yen
 
-- kana: いくら
+- id: いくら
   meaning: how much
 
-- kana:
+- id:
 
-- kana: ひゃく
-  kanji: 百
+- id: 百
+  text: /百=ひゃく\
   meaning: hundred
 
-- kana: せん
-  kanji: 千
+- id: 千
+  text: /千=せん\
   meaning: thousand
 
-- kana: まん
-  kanji: 万
+- id: 万
+  text: /万=まん\
   meaning: ten thousand
 
-- kana:
+- id:
 
-- kana: すみません。
+- text: すみません。
   meaning: Excuse me.
   type: C
 
-- kana: どうも。
+- text: どうも。
   meaning: Thanks. 
   type: C
 
-- kana:
+- id:
 
-- kana: お<ruby>探<rt>さが</rt></ruby>しですか。
-  meaning: Are 
+- text: いらっしゃいませ。
+  meaning: Welcome./May I help you? (greeting to a customer entering a shop)
   type: K
+
+- text: ［～を］/見=み\せて　ください。
+  meaning: Please show me [～]
+  type: K
+
+- text: じゃ
+  meaning: well, then, in that case
+  type: K
+
+- text: ［～を］ください。
+  meaning: Give me [～], please.
+  type: K    
