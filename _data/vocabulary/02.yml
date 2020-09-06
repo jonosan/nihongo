@@ -1,187 +1,187 @@
-- kana: これ
+- id: これ
   meaning: this (thing here)
 
-- kana: それ
+- id: それ
   meaning: that (thing near the listener)
 
-- kana: あれ
+- id: あれ
   meaning: that (thing over there)  
 
-- kana:
+- id:
 
-- kana: この
+- id: この
   suffix: 　～
   meaning: this ～, this ～ here
 
-- kana: その
+- id: その
   suffix: 　～
   meaning: that ～, that ～ near the listener
 
-- kana: あの
+- id: あの
   suffix: 　～
   meaning: that ～, that ～ over there
 
-- kana:
+- id:
 
-- kana: ほん
-  kanji: 本
+- id: 本
+  text: /本=ほん\
   meaning: book
 
-- kana: じしょ
-  kanji: 辞書
+- id: 辞書
+  text: /辞=じ\/書=しょ\
   meaning: dictionary
 
-- kana: ざっし
-  kanji: 雑誌
+- id: 雑誌
+  text: /雑=ざ\/誌=っし\
   meaning: magazine
 
-- kana: しんぶん
-  kanji: 新聞
+- id: 新聞
+  text: /新=しん\/聞=ぶん\
   meaning: newspaper
 
-- kana: ノート
+- id: ノート
   meaning: notebook
 
-- kana: てちょう
-  kanji: 手帳
+- id: 手帳
+  text: /手=て\/帳=ちょう\
   meaning: personal organizer
 
-- kana: めいし
-  kanji: 名刺
+- id: 名刺
+  text: /名=めい\/刺=し\
   meaning: business card
 
-- kana: カード
+- id: カード
   meaning: (credit) card
 
-- kana:
+- id:
 
-- kana: えんぴつ
-  kanji: 鉛筆
+- id: 鉛筆
+  text: /鉛=えん\/筆=ぴつ\
   meaning: pencil
 
-- kana: ボールペン
+- id: ボールペン
   meaning: ballpoint pen
 
-- kana: シャープペンシル
+- id: シャープペンシル
   meaning: mechanical pencil, propelling pencil
 
-- kana:
+- id:
 
-- kana: かぎ
+- id: かぎ
   meaning: key
 
-- kana: とけい
-  kanji: 時計
+- id: 時計
+  text: /時=と\/計=けい\
   meaning: watch, clock
 
-- kana: かさ
-  kanji: 傘
+- id: 傘
+  text: /傘=かさ\
   meaning: umbrella
 
-- kana: かばん
+- id: かばん
   meaning: bag, briefcase
 
-- kana: CD
+- id: CD
   meaning: CD, compact disk
 
-- kana:
+- id:
 
-- kana: テレビ
+- id: テレビ
   meaning: television
 
-- kana: ラジオ
+- id: ラジオ
   meaning: radio
 
-- kana: カメラ
+- id: カメラ
   meaning: camera
 
-- kana: コンピューター
+- id: コンピューター
   meaning: computer
 
-- kana: くるま
-  kanji: 車
+- id: 車
+  text: /車=くるま\
   meaning: car, vehicle  
 
-- kana:
+- id:
 
-- kana: つくえ
-  kanji: 机
+- id: 机
+  text: /机=つくえ\
   meaning: desk
 
-- kana: いす
+- id: いす
   meaning: chair
 
-- kana:
+- id:
 
-- kana: チョコレート
+- id: チョコレート
   meaning: chocolate
 
-- kana: コーヒー
+- id: コーヒー
   meaning: coffee
 
-- kana: みやげ
-  kanji: 土産
-  prefix: "［お］"
+- id: 土産
+  text: /土産=みやげ\
+  prefix: ［お］
   meaning: souvenir, present
 
-- kana:
+- id:
 
-- kana: えいご
-  kanji: 英語
+- id: 英語
+  text: /英=えい\/語=ご\
   meaning: the English language
 
-- kana: にほんご
-  kanji: 日本語
+- id: 日本語
+  text: /日=に\/本=ほん\/語=ご\
   meaning: the Japanese language
 
-- kana: ご
-  kanji: 語
+- id: 語
+  text: /語=ご\
   prefix: ～
   meaning: ～language
 
-- kana:
+- id:
 
-- kana: なん
-  kanji: 何
+- id: 何
+  text: /何=なん\
   meaning: what
 
-- kana:
+- id:
 
-- kana: そう
+- id: そう
   meaning: so
 
-- kana: あのう
+- text: あのう
   meaning: Er... (used to show hesitation)
   type: C
 
-- kana: えっ
+- text: えっ
   meaning: Oh? What! (used when hearing something unexpected)
   type: C  
 
-- kana: どうぞ。
+- text: どうぞ。
   meaning: Here you are. (used when offering someone something)
   type: C
 
-- kana: ［どうも］ありがとう［ございます］。
+- text: ［どうも］ありがとう［ございます］。
   meaning: Thank you [very much].
   type: C
 
-- kana: そうですか。
+- text: そうですか。
   meaning: I see.
   type: C
 
-- kana: <ruby>違<rt>ちが</rt></ruby>います。
+- text: /違=ちが\います。
   meaning: No, it isn't./ You are wrong.
   type: C
 
-- kana: あ
+- text: あ
   meaning: Oh! (used when becoming aware of something)
   type: C
 
-- kana: これから　お<ruby>世話<rt>せわ</rt></ruby>に　なります。
+- text: これから　お/世=せ\/話=わ\に　なります。
   meaning: Thank you in advance for your kindness.
   type: K
 
-- kana: こちらこそ［どうぞ］よろしく［お<ruby>願<rt>ねが</rt></ruby>いします］。
+- text: こちらこそ［どうぞ］よろしく［お/願=ねが\いします］。
   meaning: Pleased to meet you, too. (response to ［どうそ］よろしく［おねがいします］。)
   type: K  
